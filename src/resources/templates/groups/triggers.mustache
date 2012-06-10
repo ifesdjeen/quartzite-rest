@@ -1,0 +1,15 @@
+<h1>Triggers</h1>
+<table class='table table-bordered table-striped'>
+  <thead>
+    <tr>
+      <th>Group</th>
+      <th></th>
+    </tr>
+  </thead>
+  {{#triggers}}
+    <tr class="group-row">
+      <td>{{full-job-name}}</td>
+      <td>{{description}} {{group}}</td>
+    </tr>
+  {{/triggers}}
+</table>
