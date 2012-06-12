@@ -1,0 +1,15 @@
+<h1>Jobs</h1>
+<table class='table table-bordered table-striped'>
+  <thead>
+    <tr>
+      <th>Group</th>
+      <th></th>
+    </tr>
+  </thead>
+  {{#jobs}}
+    <tr class="group-row">
+      <td>{{full-name}}</td>
+      <td>{{description}} {{group}}</td>
+    </tr>
+  {{/jobs}}
+</table>
